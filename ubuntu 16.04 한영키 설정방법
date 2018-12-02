@@ -1,1 +1,16 @@
-https://blog.naver.com/vkdjdks/221121953691
+
+
+ctrl + alt + T 를 눌러서 터미널을 열고 dconf-editor를 설치한다.
+sudo apt-get install dconf-tools
+터미널에 위와 같이 치면 알아서 설치 된다. 
+
+그리고 Super키(우리가 흔히 윈도우 키라고 알고 있는것)를 눌러서 "dconf"라고 검색하면 돋보기에 체크표시가 되어 있는 아이콘의 dconf Editor가 검색 될 것이다. 
+
+해당 프로그램에서 org >> gnome >> desktop >> wm >> keybindings 로 가서 보면, 옵션 값중에
+switch-input-source
+switch-input-source-backward
+를 찾을수 있을것이다. 
+
+두가지 값 중 하나를 ['Hangul'] 이라고 직접 써서 바꾸어 놓으면 [한/영]키로 설정이 가능하게 된다.
+
+[출처] Ubuntu 16.04 한글키로 한영전환하기|작성자 연생 https://blog.naver.com/vkdjdks/221121953691
